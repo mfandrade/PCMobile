@@ -17,6 +17,7 @@ public class Event implements Serializable {
     private String _description;
     private Date _startDate;
     private Integer _days;
+    private String _place;
     private String _address; // street + district + state + country
 
     public Event() {
@@ -29,6 +30,10 @@ public class Event implements Serializable {
 	setDate(date);
 	setDays(days);
 	setAddress(address);
+    }
+    public Event(String name, String edition, String description, String date, Integer days, String place, String address) {
+	this(name, edition, description, date, days, address);
+	setPlace(place);
     }
 
     public Event(JSONObject json) throws IllegalArgumentException {
@@ -124,6 +129,14 @@ public class Event implements Serializable {
 
     public void setAddress(String address) {
 	_address = address;
+    }
+
+    public String getPlace() {
+	return _place;
+    }
+
+    public void setPlace(String _place) {
+	this._place = _place;
     }
 
 }
