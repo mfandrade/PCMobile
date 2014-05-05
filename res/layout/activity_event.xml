@@ -7,45 +7,22 @@
 
     <TextView
         android:id="@+id/event_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#303030"
-        android:gravity="center_horizontal"
-        android:paddingTop="24dp"
-        android:textColor="#ffffff"
-        android:textSize="24sp" />
+        style="@style/Event.header.title.first" />
 
     <TextView
         android:id="@+id/event_edition"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#303030"
-        android:gravity="center_horizontal"
-        android:textColor="#ffffff"
-        android:textSize="20sp" />
+        style="@style/Event.header.subtitle" />
 
     <TextView
         android:id="@+id/event_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#303030"
-        android:gravity="center_horizontal"
-        android:textColor="#ffffff" />
+        style="@style/Event.header.subsubtitle" />
 
     <TextView
         android:id="@+id/event_place"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#303030"
-        android:gravity="center_horizontal"
-        android:paddingBottom="24dp"
-        android:textColor="#ffffff" />
+        style="@style/Event.header.subsubtitle.last" />
 
     <TextView
         android:id="@+id/event_description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textSize="18sp" />
+        style="@style/Event.normaltext" />
 
 </LinearLayout>
