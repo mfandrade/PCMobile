@@ -3,5 +3,7 @@
 
     <string name="app_name">PalestrasColetivas</string>
     <string name="hello_world">Hello world!</string>
+    <string name="new_">New</string>
+    <string name="refresh">Refresh</string>
 
 </resources>

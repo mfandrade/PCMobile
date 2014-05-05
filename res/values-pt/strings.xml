@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PalestrasColetivas</string>
+    <string name="hello_world">Olá, mundo!</string>
+    <string name="new_">Novo</string>
+    <string name="refresh">Atualizar</string>
+
+</resources>
