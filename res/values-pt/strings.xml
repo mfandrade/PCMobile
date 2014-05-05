@@ -8,5 +8,7 @@
     <string name="title_activity_event">EventActivity</string>
     <string name="schedule">Programação</string>
     <string name="map">Local</string>
+	<string name="title_activity_form_event">FormEventActivity</string>
+	<string name="name">Nome:</string>
     
 </resources>
