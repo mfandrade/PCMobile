@@ -1,5 +1,6 @@
 package org.tasafo.mobile.palestrascoletivas;
 
+import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -8,14 +9,15 @@ import java.util.Locale;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Event {
+public class Event implements Serializable {
 
-    private String  _name;
-    private String  _edition;
-    private String  _description;
-    private Date    _startDate;
+    private static final long serialVersionUID = -7284427379090548417L;
+    private String _name;
+    private String _edition;
+    private String _description;
+    private Date _startDate;
     private Integer _days;
-    private String  _address;    // street + district + state + country
+    private String _address; // street + district + state + country
 
     public Event() {
     }

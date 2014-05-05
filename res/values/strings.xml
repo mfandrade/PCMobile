@@ -5,5 +5,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="new_">New</string>
     <string name="refresh">Refresh</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="schedule">Schedule</string>
+    <string name="map">Map</string>
 
 </resources>

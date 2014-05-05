@@ -5,5 +5,8 @@
     <string name="hello_world">Olá, mundo!</string>
     <string name="new_">Novo</string>
     <string name="refresh">Atualizar</string>
-
+    <string name="title_activity_event">EventActivity</string>
+    <string name="schedule">Programação</string>
+    <string name="map">Mapa</string>
+    
 </resources>

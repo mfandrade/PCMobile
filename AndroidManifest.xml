@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="org.tasafo.mobile.palestrascoletivas.EventActivity"
+            android:label="@string/title_activity_event"
+            android:parentActivityName="org.tasafo.mobile.palestrascoletivas.EventsListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.tasafo.mobile.palestrascoletivas.EventsListActivity" />
+        </activity>
     </application>
 
 </manifest>
