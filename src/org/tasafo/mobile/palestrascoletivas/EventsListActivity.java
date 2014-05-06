@@ -39,7 +39,21 @@ public class EventsListActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 	getMenuInflater().inflate(R.menu.main_menu, menu);
-	MenuItem newEvent = (MenuItem) findViewById(R.id.main_menu_new);
 	return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+	Intent next = null;
+	switch (item.getItemId()) {
+	case R.id.main_menu_new:
+	    next = new Intent(this, FormEventActivity.class);
+	    break;
+
+	default:
+	    break;
+	}
+	startActivity(next);
+        return super.onOptionsItemSelected(item);
     }
 }
