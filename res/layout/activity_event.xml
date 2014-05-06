@@ -7,6 +7,7 @@
 
     <TextView
         android:id="@+id/event_name"
+		android:hint="@string/event_name_hint"
         style="@style/Event.header.title.first" />
 
     <TextView

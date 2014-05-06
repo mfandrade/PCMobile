@@ -9,6 +9,25 @@
     <string name="schedule">Programação</string>
     <string name="map">Local</string>
 	<string name="title_activity_form_event">FormEventActivity</string>
-	<string name="name">Nome:</string>
+	<string name="event_name">Nome:</string>
+	<string name="event_name_hint">Conferência de Tecnologia</string>
+	<string name="event_edition">Edição:</string>
+	<string name="event_edition_hint">2014</string>
+	<string name="event_description">Descrição:</string>
+	<string name="event_description_hint">Evento que trata sobre a tecnologia no mundo atual</string>
+	<string name="event_lotacao">Lotação:</string>
+	<string name="event_lotacao_hint">0</string>
+	<string name="event_start_date">Data de início:</string>
+	<string name="event_start_date_hint"></string>
+	<string name="event_days">Dias de evento:</string>
+	<string name="event_days_hint">1</string>
+	<string name="event_address">Endereço:</string>
+	<string name="event_address_hint">Rua das Potocas, 1001</string>
+	<string name="event_district">Bairro:</string>
+	<string name="event_district_hint">Centro</string>
+	<string name="event_state">UF:</string>
+	<string name="event_state_hint">PA</string>
+	<string name="event_country">País</string>
+	<string name="event_country_hint">Brasil</string>
     
 </resources>

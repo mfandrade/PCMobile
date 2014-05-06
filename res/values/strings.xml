@@ -9,6 +9,25 @@
     <string name="schedule">Schedule</string>
     <string name="map">Local</string>
 	<string name="title_activity_form_event">FormEventActivity</string>
-	<string name="name">Name:</string>
+	<string name="event_name">Name:</string>
+	<string name="event_name_hint">Tech Event Name</string>
+	<string name="event_edition">Edition:</string>
+	<string name="event_edition_hint">2014</string>
+	<string name="event_description">Description:</string>
+	<string name="event_description_hint">Event about technology in actuality</string>
+	<string name="event_lotacao">Lotação:</string>
+	<string name="event_lotacao_hint">0</string>
+	<string name="event_start_date">Start date:</string>
+	<string name="event_start_date_hint"></string>
+	<string name="event_days"># event days:</string>
+	<string name="event_days_hint">1</string>
+	<string name="event_address">Address:</string>
+	<string name="event_address_hint">Rua das Potocas, 1001</string>
+	<string name="event_district">District:</string>
+	<string name="event_district_hint">Center</string>
+	<string name="event_state">State:</string>
+	<string name="event_state_hint">PA</string>
+	<string name="event_country">Country</string>
+	<string name="event_country_hint">Brazil</string>
 
 </resources>
