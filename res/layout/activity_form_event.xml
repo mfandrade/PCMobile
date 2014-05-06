@@ -2,103 +2,143 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="${packageName}.${activityClass}">
-	
-	<LinearLayout
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:orientation="vertical">
+    tools:context="${packageName}.${activityClass}" >
 
-		<TextView android:text="@string/event_name"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_name"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_name_hint"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
 
-		<TextView android:text="@string/event_edition"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_edition"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_edition_hint"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_name" />
 
-		<TextView android:text="@string/event_description"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_description"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_description_hint"
-			android:lines="2"/>
+        <EditText
+            android:id="@+id/event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_name_hint" />
 
-		<TextView android:text="@string/event_lotacao"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_lotacao"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_lotacao_hint"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_edition" />
 
-		<TextView android:text="@string/event_start_date"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_start_date"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_start_date_hint"/>
+        <EditText
+            android:id="@+id/event_edition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_edition_hint" />
 
-		<TextView android:text="@string/event_days"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_days"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_days_hint"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_description" />
 
-		<TextView android:text="@string/event_address"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_address"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_address_hint"/>
+        <EditText
+            android:id="@+id/event_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_description_hint"
+            android:lines="2" />
 
-		<TextView android:text="@string/event_district"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_district"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_district_hint"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_stocking" />
 
-		<TextView android:text="@string/event_state"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_state"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_state_hint"/>
+        <EditText
+            android:id="@+id/event_stocking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_stocking_hint"
+            android:inputType="number" />
 
-		<TextView android:text="@string/event_country"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_country"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_country_hint"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_start_date" />
 
-		<TextView android:text="@string/event_address"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"/>
-		<EditText android:id="@+id/edt_event_address"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="@string/event_address_hint"/>
+        <EditText
+            android:id="@+id/event_start_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_start_date_hint"
+            android:inputType="date" />
 
-		</LinearLayout>
-	
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_days" />
+
+        <EditText
+            android:id="@+id/event_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_days_hint"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_place" />
+
+        <EditText
+            android:id="@+id/event_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_place_hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_address" />
+
+        <EditText
+            android:id="@+id/event_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_address_hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_district" />
+
+        <EditText
+            android:id="@+id/event_district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_district_hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_state" />
+
+        <EditText
+            android:id="@+id/event_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_state_hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_name" />
+
+        <EditText
+            android:id="@+id/event_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_country_hint" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+    </LinearLayout>
+
 </ScrollView>

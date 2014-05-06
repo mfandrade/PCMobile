@@ -25,17 +25,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.tasafo.mobile.palestrascoletivas.EventsListActivity" />
         </activity>
-		<activity
+        <activity
             android:name="org.tasafo.mobile.palestrascoletivas.FormEventActivity"
             android:label="@string/title_activity_form_event"
             android:parentActivityName="org.tasafo.mobile.palestrascoletivas.EventsListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.tasafo.mobile.palestrascoletivas.EventsListActivity" />
-			<intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
