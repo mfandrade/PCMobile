@@ -38,11 +38,11 @@ public class EventsListActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-	getMenuInflater().inflate(R.menu.main_menu, menu);
-	return true;
+	//getMenuInflater().inflate(R.menu.main_menu, menu);
+	return false; //true;
     }
     
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
 	Intent next = null;
 	switch (item.getItemId()) {
@@ -55,5 +55,5 @@ public class EventsListActivity extends Activity {
 	}
 	startActivity(next);
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 }
