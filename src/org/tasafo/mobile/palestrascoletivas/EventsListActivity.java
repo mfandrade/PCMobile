@@ -52,8 +52,7 @@ public class EventsListActivity extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.main_menu_new:
-			Toast.makeText(this, "Disponível na próxima atualização",
-					Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Disponível na próxima atualização", Toast.LENGTH_LONG).show();
 			break;
 		case R.id.main_menu_refresh:
 			new Updater().execute(EVENTS_ENDPOINT);
@@ -94,8 +93,7 @@ public class EventsListActivity extends Activity {
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-			progress = ProgressDialog.show(EventsListActivity.this,
-					"Por favor, aguarde.", "Acessando lista de eventos.");
+			progress = ProgressDialog.show(EventsListActivity.this, "Por favor, aguarde.", "Acessando lista de eventos.");
 		}
 
 		@Override
@@ -104,16 +102,14 @@ public class EventsListActivity extends Activity {
 
 			progress.dismiss();
 			if (res != null) {
-				ArrayAdapter<Event> adapter = new ArrayAdapter<Event>(
-						EventsListActivity.this,
-						android.R.layout.simple_list_item_1, res);
+				ArrayAdapter<Event> adapter = new ArrayAdapter<Event>(EventsListActivity.this, android.R.layout.simple_list_item_1, res);
 				_eventsListView.setAdapter(adapter);
 
 			} else {
-				AlertDialog.Builder builder = new AlertDialog.Builder(
-						EventsListActivity.this).setTitle("Atenção!")
-						.setMessage("Não foi possível acessar os eventos.")
-						.setPositiveButton("OK", null);
+				AlertDialog.Builder builder = new AlertDialog.Builder(EventsListActivity.this)
+					.setTitle("Atenção!")
+					.setMessage("Não foi possível acessar os eventos.")
+					.setPositiveButton("OK", null);
 				builder.show();
 			}
 		}
@@ -144,6 +140,5 @@ public class EventsListActivity extends Activity {
 			}
 			return new String(baos.toByteArray());
 		}
-
 	}
 }
