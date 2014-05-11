@@ -1,13 +1,10 @@
 package org.tasafo.mobile.palestrascoletivas;
 
-import java.io.Serializable;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
+import java.io.*;
+import java.text.*;
+import java.util.*;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import org.json.*;
 
 public class Event implements Serializable {
 

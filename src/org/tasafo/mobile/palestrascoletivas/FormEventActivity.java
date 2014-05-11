@@ -1,7 +1,7 @@
 package org.tasafo.mobile.palestrascoletivas;
 
-import android.app.Activity;
-import android.os.Bundle;
+import android.app.*;
+import android.os.*;
 
 public class FormEventActivity extends Activity {
 

@@ -1,13 +1,13 @@
 package org.tasafo.mobile.palestrascoletivas;
 
-import java.text.SimpleDateFormat;
-import java.util.Locale;
+import android.app.*;
+import android.content.*;
+import android.os.*;
+import android.view.*;
+import android.widget.*;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.Menu;
-import android.widget.TextView;
+import java.text.*;
+import java.util.*;
 
 public class EventActivity extends Activity {
 
