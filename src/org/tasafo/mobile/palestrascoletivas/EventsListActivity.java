@@ -93,7 +93,7 @@ public class EventsListActivity extends Activity {
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-			progress = ProgressDialog.show(EventsListActivity.this, "Por favor, aguarde.", "Acessando lista de eventos.");
+			progress = ProgressDialog.show(EventsListActivity.this, "Por favor, aguarde...", "Atualizando eventos.");
 		}
 
 		@Override
