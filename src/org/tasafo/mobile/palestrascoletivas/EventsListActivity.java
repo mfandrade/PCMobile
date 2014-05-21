@@ -52,13 +52,10 @@ public class EventsListActivity extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.main_menu_new:
-			Toast.makeText(this, "Disponível na próxima atualização", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Disponível na próxima versão", Toast.LENGTH_LONG).show();
 			break;
 		case R.id.main_menu_refresh:
 			new Updater().execute(EVENTS_ENDPOINT);
-			break;
-
-		default:
 			break;
 		}
 		return super.onOptionsItemSelected(item);
