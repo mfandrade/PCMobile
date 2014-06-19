@@ -18,7 +18,7 @@ import org.json.*;
 
 public class EventsListActivity extends Activity {
 
-	private static final String EVENTS_ENDPOINT = "http://179.215.196.50:3000/events.json";
+	private static final String EVENTS_ENDPOINT = "http://palestrascoletivas.com/events.json";
 	private ListView _eventsListView;
 
 	@Override
